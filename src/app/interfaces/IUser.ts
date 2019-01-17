@@ -1,0 +1,10 @@
+export interface IUser{
+    id: number;
+    firstname: string;
+    lastname: string;
+    email: string;
+    password: string;
+    dateOfBirth: Date;
+    lastCreated: Date;
+    lastUpdated: Date;
+}
